@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeseva One',cursive;
+}
+.header{
+    width: 100%;
+    min-height: 10vh;
+    background-image: url(images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.sidebar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 100vh;
+    background-color: rgba(1, 1, 3, 0.9);
+    text-align: center;
+}
+.sidebar img{
+    width: 22px;
+    display: block;
+    margin: 50px auto 80px;
+    cursor: pointer;
+}
+.social-media{
+    width: 100%;
+    height: 50%;
+    background: #700c0f;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+.social-media img{
+    width: 30px;
+    margin: 15px;
+}
+.container{
+     width: 53%;
+     height: 100vh;
+     position: relative;
+}
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.info{
+    padding: 50px,18%;
+    color: #fff;
+}
+.info h3{
+    font-size: 42px;
+    line-height: 60px;
+    font-weight: normal;
+
+}
+.info h1{
+    font-size: 92px;
+    font-weight: normal;
+    margin-bottom: 32px;
+
+
+}
+.info p{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 20px;
+    cursor: pointer;
+    position: relative;
+}
